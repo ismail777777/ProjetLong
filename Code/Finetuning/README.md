@@ -1,7 +1,7 @@
 # Content
 - The notebook "Fine_Tune_C_in_Llama2.ipynb" contains the code of the fine-tuning with the LoRA method.
 
-- The required libraries and versions are given in the "Requirements.txt" file.
+- The required libraries and versions are given in the "requirements.txt" file.
 
 - You can download the configuration files of the fine-tuned model here: "link coming soon!"
 
