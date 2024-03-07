@@ -15,7 +15,7 @@ import re        # Facilitates regular expression operations
 
 # GitHub API headers including authorization token and request headers
 headers = {
-    'Authorization': 'token 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',
+    'Authorization': 'YOUR_GITHUB_TOKEN',
     'Accept': 'application/vnd.github.v3+json'
 }
 
