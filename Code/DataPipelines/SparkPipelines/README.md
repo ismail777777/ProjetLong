@@ -26,6 +26,7 @@ The output data is stored in the "cleaned/assembeled" folder.
 
 #### PS:
 If you want to test what the assembling does exactly by executing it, download "/file.c" and "/extraction.py", the latter applies the assembling on the former after using a lighter version of the extraction tool in C++. (the point is seeing what the assembling is) don't foget to set your input file path and output folder path.
+
 Corresponding file: "raw_to_clean_2.py"
 ![Image](assembling.png)
 
@@ -39,6 +40,7 @@ The output data is stored in the "annotated" folder.
 
 Corresponding file: "clean_to_anno.py"
 ![Image](openai_api.png)
+
 # Usage
 - Install Spark, Java JDK and JRE and set the paths in you ./bashrc
 - pyspark library through pip.
@@ -47,7 +49,8 @@ Corresponding file: "clean_to_anno.py"
 
 (data ->{from_source->{subjects}, raw->{subjects_fs}, cleaned->{subject->{subject_by_key, subject_hashing}}, annotated->{subjects})
 
-- For the third step, an OpenAI API key needs to be set in the Spark configuration.
+- For the final step, an OpenAI API key needs to be set in the Spark configuration.
+- The openAI api key is not free.
 
 
 ![Image](file_system.png)
