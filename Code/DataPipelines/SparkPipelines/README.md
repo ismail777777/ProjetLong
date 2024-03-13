@@ -38,7 +38,7 @@ Corresponding file: "clean_to_anno.py"
 # Usage
 - The path to the data directory must be set at the beginning of all Spark jobs.
 
-(data ->{from_source->{subjects}, raw->{subjects}, cleaned->{hashing->{subjects},assembling->{subjects}}, annotated->{subjects})
+(data ->{from_source->{subjects}, raw->{subjects_fs}, cleaned->{subject->{subject_by_key, subject_hashing}}, annotated->{subjects})
 
 - For the third step, an OpenAI API key needs to be set in the Spark configuration.
 
