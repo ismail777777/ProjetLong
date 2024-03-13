@@ -41,3 +41,7 @@ Corresponding file: "clean_to_anno.py"
 (data ->{from_source->{subjects}, raw->{subjects}, cleaned->{hashing->{subjects},assembling->{subjects}}, annotated->{subjects})
 
 - For the third step, an OpenAI API key needs to be set in the Spark configuration.
+
+![Image](images/example.jpg)
+![Image](images/example.jpg)
+
