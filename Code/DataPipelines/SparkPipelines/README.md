@@ -3,6 +3,7 @@ This an implementation of Spark jobs that perform the deduplication, cleaning, h
 # Steps
 ## Step 1: from Source to Raw
 In this step, deduplication is performed on the code snippets.
+
 The output data is stored in the "raw" folder. 
 
 Corresponding file: "from_source_to_raw.py".
