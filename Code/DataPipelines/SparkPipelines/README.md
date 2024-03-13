@@ -42,6 +42,6 @@ Corresponding file: "clean_to_anno.py"
 
 - For the third step, an OpenAI API key needs to be set in the Spark configuration.
 
-![Image](images/example.jpg)
-![Image](images/example.jpg)
+![Image](SparkPipelines/file_system.png)
+![Image](SparkPipelines/data_pipelines.png)
 
