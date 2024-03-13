@@ -89,7 +89,7 @@ headers = {
 ### Usage
 
 #### Extracting Embedded Systems Code
-Run cfile_extractor.py to start the extraction process:
+Run get_code.py to start the extraction process:
 ```
 python get_code.py
 ```
