@@ -1,6 +1,7 @@
 # DataBase Preparation
+cfile_extractor downloads all the files related to the request you give it, via the github api. Make sure your file system has this content downloaded in a folder named from_soure containing as many folders as the requests you have the extractor, each folder therefore contains the code related to a request.
 
-Description of your project, what it does, and any other relevant information about what your project accomplishes or its intended use.
+Description of the project, what it does, and any other relevant information about what the project accomplishes or its intended use.
 
 ## C++ Part
 ## Requirements
@@ -88,7 +89,7 @@ headers = {
 ### Usage
 
 #### Extracting Embedded Systems Code
-Run get_code.py to start the extraction process:
+Run cfile_extractor.py to start the extraction process:
 ```
 python get_code.py
 ```
