@@ -13,4 +13,4 @@ In each folder you'll have a documentation explaining how everything works, and 
 
 The following image provides a technical overview of the project. (tools, architecture, ...)
 
-!![Image](overview.png)
+![Image](overview.png)
