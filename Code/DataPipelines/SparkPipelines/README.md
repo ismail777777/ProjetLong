@@ -23,7 +23,7 @@ Corresponding file: "raw_to_clean_1.py"
 ### Substep 2: Assembling: 
 This Spark job reconstructs every extracted code into its original context as coherent portion of code (adding global variables, defining custom types...), the extracted codes need their parents code for that, hence, the hashing done in the first substep.
 The output data is stored in the "cleaned/assembeled" folder. 
-
+![Image](assembling.png)
 Corresponding file: "raw_to_clean_2.py"
 
 
@@ -34,7 +34,7 @@ A request is sent for each code snippet to the OpenAI API in order to provide it
 The output data is stored in the "annotated" folder.
 
 Corresponding file: "clean_to_anno.py"
-
+![Image](openai_api.png)
 # Usage
 - The path to the data directory must be set at the beginning of all Spark jobs.
 
