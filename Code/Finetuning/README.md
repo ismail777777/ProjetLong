@@ -1,5 +1,7 @@
 # Content
-- The notebook "Fine_Tune_C_in_Llama2.ipynb" contains the code of the fine-tuning with the LoRA method.
+- The notebook "Fine_Tune_C_in_Llama2.ipynb" contains the code of the first attempt of fine-tuning with the LoRA method. (5 epochs)
+
+- The notebook "Fine_Tune_Llama2_etape2.ipynb" contains the code of the second attempt of fine-tuning with the LoRA method. (15 epochs going from the first attempt fine-tuned model, so 20 epochs in total)
 
 - The required versions of the used libraries are given in the "requirements.txt" file. (generated with pip freeze)
 
