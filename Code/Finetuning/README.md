@@ -7,7 +7,7 @@
 
 - You can download the configuration files of the fine-tuned model here: "link coming soon!"
 
-- The notebook "Test_Model.ipynb" contains the code of how to load and use the fine-tuned model from the configuration files given in the link above.
+- The notebook "Test_Model.ipynb" contains the code of how to load and use the fine-tuned model from the configuration files given in the link above. If you want to use the Web interface, you can see the Interface folder.
 
 - The notebooks are documented. To understand more about how the LoRA method works, you can see the project report.  
   
