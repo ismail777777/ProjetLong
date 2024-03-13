@@ -1,3 +1,6 @@
+# Dataset
+![Image](dataset.png)
+
 #   Note
 The model requires a single column dataset. This is a two column dataset. 
 
