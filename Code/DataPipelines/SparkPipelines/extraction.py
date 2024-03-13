@@ -56,7 +56,7 @@ for fun in all_functions_names:
     vars_in_fun[fun] = glo_var_in_function(cd, all_variables_names)
     typs_in_fun[fun] = types_in_function(cd, all_types_names)
 
-path = 'C:/Users/hlilo/Downloads/Prj_Lng/out_extraction'
+path = '....'  #output folder
 for fun in all_functions_names:
         code = '//...' + '\n'
         for typ in typs_in_fun[fun]:
