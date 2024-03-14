@@ -5,7 +5,7 @@
 
 - The required versions of the used libraries are given in the "requirements.txt" file. (generated with pip freeze)
 
-- You can download the configuration files of the fine-tuned model here: "link coming soon!"
+- You can download the configuration files of the fine-tuned model here: https://drive.google.com/drive/folders/1OaUohfnust_cNpejL3iSMbJw_mtl9aqU?usp=sharing
 
 - The notebook "Test_Model.ipynb" contains the code of how to load and use the fine-tuned model from the configuration files given in the link above. If you want to use the Web interface, you can see the Interface folder.
 
